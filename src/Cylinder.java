@@ -1,5 +1,5 @@
 public class Cylinder {
-    public static double getVolume(int radius, int height){
+    public static double getArea(int radius, int height){
         double baseArea = getBaseArea(radius);
         double perimeter = getPerimeter(radius);
         double volume = getVolume(height, baseArea, perimeter);
